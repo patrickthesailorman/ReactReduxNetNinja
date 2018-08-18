@@ -13,17 +13,18 @@
     <div id="app"></div>
 
     <script type="text/babel">
-    class App extends React.Component {
-        render() {
-            return(
-                <div className="app-content"> // class is a reserved keyword in JS use className 
-                    <h1>Hey, Ninjas</h1>
-                </div>
-            )
+        class App extends React.Component {
+            render() {
+                return(
+                    <div className="app-content"> // class is a reserved keyword in JS use className 
+                        <h1>Hey, Ninjas</h1>
+                        <p>{ Math.random() * 10 }</p>
+                    </div>
+                )
+            }
         }
-    }
 
-    ReactDom.render(<App />, documet.getElementById('app'));
+        ReactDom.render(<App />, documet.getElementById('app'));
     </script>
 
 </body>
