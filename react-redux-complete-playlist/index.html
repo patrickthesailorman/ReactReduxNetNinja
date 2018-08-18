@@ -14,8 +14,12 @@
 
     <script type="text/babel">
         class App extends React.Component {
+            state = {
+                name: 'Ryu',
+                age: 30
+            }
             render() {
-                return(
+                return (
                     <div className="app-content"> // class is a reserved keyword in JS use className 
                         <h1>Hey, Ninjas</h1>
                         <p>{ Math.random() * 10 }</p>
