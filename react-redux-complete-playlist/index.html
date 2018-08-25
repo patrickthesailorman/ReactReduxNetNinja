@@ -19,14 +19,16 @@
                 age: 30
             }
             handleChange = (e) => {
-
+                this.setState({
+                    name: e.target.value
+                })
             }
             render() {
                 return (
                     <div className="app-content"> // class is a reserved keyword in JS use className 
                         <h1>My name is: { this.state.name }</h1>
                         <form>
-                            <input type="text" onChange={}/>
+                            <input type="text" onChange={this.handleChange}/>
                             <button>Submit</button>
                         </form>
                     </div>
