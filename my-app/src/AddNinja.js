@@ -1,6 +1,11 @@
 import React, { Componenet } from 'react'
 
 class AddNinja extends Componenet {
+    state = {
+        name: null,
+        age: null,
+        belt: null
+    }
     render(){
         return (
             <div>
