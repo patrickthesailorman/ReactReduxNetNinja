@@ -11,6 +11,7 @@ class AddNinja extends Componenet {
                     <input type="text" id="age" onChange={} />
                     <label htmlFor="name">Belt: </label>
                     <input type="text" id="belt" onChange={} />
+                    <button>Submit</button>
                 </form>
             </div>
         )
