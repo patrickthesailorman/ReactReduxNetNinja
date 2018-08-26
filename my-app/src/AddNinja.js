@@ -11,6 +11,10 @@ class AddNinja extends Componenet {
             [e.target.id]: e.target.value
         })
     }
+    handleSubmit = (e) => {
+        e.preventDefault();
+        console.log(this.state);
+    }
     render(){
         return (
             <div>
