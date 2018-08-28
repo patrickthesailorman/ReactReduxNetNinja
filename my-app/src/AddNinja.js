@@ -1,6 +1,6 @@
-import React, { Componenet } from 'react'
+import React, { Component } from 'react'
 
-class AddNinja extends Componenet {
+class AddNinja extends Component {
     state = {
         name: null,
         age: null,
@@ -18,7 +18,7 @@ class AddNinja extends Componenet {
     render(){
         return (
             <div>
-                <form>
+                <form onSubmit={this.handleSubmit}>
                     <label htmlFor="name">Name: </label>
                     <input type="text" id="name" onChange={this.handleChange} />
                     <label htmlFor="age">Age: </label>
@@ -31,3 +31,5 @@ class AddNinja extends Componenet {
         )
     }
 }
+
+export default AddNinja
