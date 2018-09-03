@@ -12,6 +12,7 @@ class App extends Component {
   }
   addNinja = (ninja) => {
     console.log(ninja);
+    ninja.id = Math.random();
   }
   render() {
     return (
