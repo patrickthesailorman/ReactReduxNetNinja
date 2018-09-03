@@ -10,6 +10,9 @@ class App extends Component {
       { name: 'Crystal', age: 25, belt: 'pink', id: 3 }
     ]
   }
+  addNinja = (ninja) => {
+    
+  }
   render() {
     return (
       <div className="App">
