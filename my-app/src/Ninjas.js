@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-const Ninjas = ({ninjas}) => {
+const Ninjas = ({ninjas, deleteNinja}) => {
     const ninjaList = ninjas.map(ninja => {
         if (ninja.age > 20){
             return(
