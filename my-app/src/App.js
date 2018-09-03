@@ -11,7 +11,7 @@ class App extends Component {
     ]
   }
   addNinja = (ninja) => {
-    
+
   }
   render() {
     return (
@@ -19,7 +19,7 @@ class App extends Component {
        <h1>My first React app!</h1>
          <p>Welcome :)</p>
          <Ninjas ninjas={this.state.ninjas} />
-         <AddNinja />
+         <AddNinja addNinja={this.addNinja}/>
       </div>
     );
   }
