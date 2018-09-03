@@ -11,7 +11,7 @@ class App extends Component {
     ]
   }
   addNinja = (ninja) => {
-
+    console.log(ninja);
   }
   render() {
     return (
