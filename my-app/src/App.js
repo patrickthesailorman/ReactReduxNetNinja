@@ -18,6 +18,9 @@ class App extends Component {
       ninjas: ninjas
     })
   }
+  deleteNinja = (id) => {
+    
+  }
   render() {
     return (
       <div className="App">
