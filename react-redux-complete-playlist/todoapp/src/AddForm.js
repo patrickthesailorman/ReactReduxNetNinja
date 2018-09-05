@@ -14,7 +14,7 @@ class AddTodo extends Component {
             <div>
                 <form onSubmit={} >
                     <label>Add new todo: </label>
-                    <input type="text" onChange={} />
+                    <input type="text" onChange={this.handleChange} />
                 </form>
             </div>
         )
