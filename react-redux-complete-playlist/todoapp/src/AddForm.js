@@ -5,7 +5,7 @@ class AddTodo extends Component {
         return (
             <div>
                 <form onSubmit={} >
-
+                    <label>Add new todo: </label>
                 </form>
             </div>
         )
