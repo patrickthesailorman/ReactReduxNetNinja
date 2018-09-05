@@ -9,6 +9,9 @@ class AddTodo extends Component {
             content: e.target.value
         })
     }
+    handleSubmit = (e) => {
+        e.preventDefault();
+    }
     render(){
         return (
             <div>
