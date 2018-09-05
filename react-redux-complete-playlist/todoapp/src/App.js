@@ -8,6 +8,9 @@ class App extends Component {
       {id: 2, content: 'buy some eggs'}
     ]
   }
+  deleteTodo = (id) => {
+    console.log(id);
+  }
   render() {
     return (
       <div className="todo-app container">
