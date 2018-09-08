@@ -9,9 +9,11 @@ const Rainbow = (WrappedComponent) => {
     return (props) => {
         return (
             <div className={className}>
-                <WrappedComponent />
+                <WrappedComponent {...props} />
             </div>
         )
     }
 
 }
+
+export default Rainbow
