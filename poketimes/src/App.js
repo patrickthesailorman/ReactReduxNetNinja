@@ -7,16 +7,19 @@ import About from './components/About'
 import Post from './components/Post'
 
 class App extends Component {
+  componentDidMount(){
+    let id = this.props.,atch.params.post_id;
+  }
   render() {
     return (
       <BrowserRouter>
-      <div className="App">
-        <Navbar />
-        <Route exact path='/' component={Home} />
-        <Route path='/contact' component={Contact} />
-        <Route path='/about' component={About} />
-        <Route path='/:post_id' component={} />
-      </div>
+        <div className="App">
+          <Navbar />
+          <Route exact path='/' component={Home} />
+          <Route path='/contact' component={Contact} />
+          <Route path='/about' component={About} />
+          <Route path='/:post_id' component={Post} />
+        </div>
       </BrowserRouter>
     );
   }
