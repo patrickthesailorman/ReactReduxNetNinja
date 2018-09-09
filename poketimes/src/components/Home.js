@@ -15,6 +15,7 @@ class Home extends Component {
         })
     }
     render() {
+        const { posts } = this.state;
         return (
             <div className="container">
                 <h4 className="center">Home</h4>
