@@ -20,7 +20,9 @@ class Home extends Component {
             posts.map(post => {
                 return (
                     <div className="post card" key={post.id}>
-                        
+                        <div className="card-content">
+                            
+                        </div>
                     </div>
                 )
             })
