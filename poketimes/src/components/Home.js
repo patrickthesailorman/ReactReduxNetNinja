@@ -21,7 +21,7 @@ class Home extends Component {
                 return (
                     <div className="post card" key={post.id}>
                         <div className="card-content">
-                            
+                            <span className="card-title">{post.title}</span>
                         </div>
                     </div>
                 )
