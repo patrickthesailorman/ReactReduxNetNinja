@@ -10,3 +10,8 @@ body {
   left: -100px;
   opacity: 0.6;
 }
+
+.home .post{
+  overflow: hidden;
+  padding-left: 80px;
+}
