@@ -26,7 +26,7 @@ class Post extends Component {
         )
         return (
             <div className="container">
-                <h4>{this.state.id}</h4>
+                { post }
             </div>
         )
     }
