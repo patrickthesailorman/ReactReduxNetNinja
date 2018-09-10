@@ -9,7 +9,9 @@ class Post extends Component {
         let id = this.props.match.params.post_id;
         axios.get('https://jsonplaceholder.typicode.com/posts/' + id)
             .then(res => {
-
+                this.setState({
+                    post: res.data
+                })
             })
       }
     render() {
