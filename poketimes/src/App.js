@@ -7,10 +7,6 @@ import About from './components/About'
 import Post from './components/Post'
 
 class App extends Component {
-  componentDidMount(){
-    console.log(this.props);
-    let id = this.props.,atch.params.post_id;
-  }
   render() {
     return (
       <BrowserRouter>
