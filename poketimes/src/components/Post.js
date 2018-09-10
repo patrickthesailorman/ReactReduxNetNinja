@@ -3,7 +3,7 @@ import axios from 'axios'
 
 class Post extends Component {
     state = {
-        id: null
+        post: null
     }
     componentDidMount(){
         let id = this.props.match.params.post_id;
