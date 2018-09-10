@@ -22,7 +22,9 @@ class Home extends Component {
                 return (
                     <div className="post card" key={post.id}>
                         <div className="card-content">
+                            <Link to={'/' + post.id} >
                             <span className="card-title">{post.title}</span>
+                            </Link>
                             <p>{post.body}</p>
                         </div>
                     </div>
@@ -34,7 +36,7 @@ class Home extends Component {
         return (
             <div className="container">
                 <h4 className="center">Home</h4>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi eligendi natus rem asperiores explicabo omnis voluptate fugiat eveniet sunt culpa, totam illum tempore nulla harum enim optio libero perferendis! Cupiditate.</p>
+                {postList}
             </div>
         )
     }
