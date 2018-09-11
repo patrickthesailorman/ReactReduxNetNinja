@@ -33,4 +33,8 @@ class Post extends Component {
     }
 }
 
+const mapStateToProps = (state,ownProps) => {
+    
+}
+
 export default connect()(Post)
