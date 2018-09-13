@@ -41,7 +41,9 @@ const mapStateToProps = (state, ownProps) => {
 }
 
 const mapDispatchToProps = (dispatch) => {
-    dispatch({})
+    return {
+        deletePost: (id) => {dispatch({type: 'DELETE_POST', id: id})}
+    }
 }
 
 
