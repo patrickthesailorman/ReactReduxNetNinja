@@ -44,4 +44,6 @@ const mapDispatchToProps = (dispatch) => {
 
 }
 
+store.dispatch({type: })
+
 export default connect(mapStateToProps)(Post)
