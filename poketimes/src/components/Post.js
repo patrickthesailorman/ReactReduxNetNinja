@@ -41,9 +41,8 @@ const mapStateToProps = (state, ownProps) => {
 }
 
 const mapDispatchToProps = (dispatch) => {
-
+    dispatch({})
 }
 
-store.dispatch({type: })
 
 export default connect(mapStateToProps)(Post)
