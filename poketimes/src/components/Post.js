@@ -15,6 +15,9 @@ class Post extends Component {
     //             })
     //         })
     //   }
+    handleClick = () => {
+        this.props.deletePost()
+    }
     render() {
         console.log(this.props)
         const post = this.props.post ? (
@@ -22,7 +25,7 @@ class Post extends Component {
                 <h4 className="center">{this.props.post.title}</h4>
                 <p>{this.props.post.body}</p>
                 <div className="center">
-                    <button className="btn grey">
+                    <button className="btn grey" onClick={this.handleClick}>
                     Delete Post
                     </button>
                 </div>
