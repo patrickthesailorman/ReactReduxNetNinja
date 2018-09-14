@@ -16,7 +16,7 @@ class Post extends Component {
     //         })
     //   }
     handleClick = () => {
-        this.props.deletePost()
+        this.props.deletePost(this.props.post.id)
     }
     render() {
         console.log(this.props)
